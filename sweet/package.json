@@ -1,0 +1,13 @@
+{
+  "name": "kaleidescope",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test --experimental-test-coverage --test-reporter=tap --test-reporter-destination=coverage/tap.info "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

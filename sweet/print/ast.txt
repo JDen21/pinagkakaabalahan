@@ -1,0 +1,188 @@
+{
+	"callStack": [
+		{
+			"keyword": {
+				"tokenType": "const",
+				"value": "const",
+				"line": 1,
+				"start": 0,
+				"end": 4
+			},
+			"statement": {
+				"identifiers": {
+					"tokenType": "identifier",
+					"value": "a",
+					"line": 1,
+					"start": 5,
+					"end": 6
+				},
+				"assignment": {
+					"tokenType": "assignment",
+					"value": "=",
+					"line": 1,
+					"start": 8,
+					"end": 8
+				},
+				"expression": {
+					"tokenType": "number",
+					"value": "1",
+					"line": 1,
+					"start": 10,
+					"end": 10
+				}
+			}
+		},
+		{
+			"keyword": {
+				"tokenType": "const",
+				"value": "const",
+				"line": 2,
+				"start": 1,
+				"end": 5
+			},
+			"statement": {
+				"identifiers": {
+					"tokenType": "identifier",
+					"value": "b",
+					"line": 2,
+					"start": 6,
+					"end": 7
+				},
+				"assignment": {
+					"tokenType": "assignment",
+					"value": "=",
+					"line": 2,
+					"start": 9,
+					"end": 9
+				},
+				"expression": {
+					"tokenType": "number",
+					"value": "2",
+					"line": 2,
+					"start": 11,
+					"end": 11
+				}
+			}
+		},
+		{
+			"keyword": {
+				"tokenType": "const",
+				"value": "const",
+				"line": 3,
+				"start": 1,
+				"end": 5
+			},
+			"statement": {
+				"identifiers": {
+					"tokenType": "identifier",
+					"value": "c",
+					"line": 3,
+					"start": 6,
+					"end": 7
+				},
+				"assignment": {
+					"tokenType": "assignment",
+					"value": "=",
+					"line": 3,
+					"start": 9,
+					"end": 9
+				},
+				"expression": {
+					"lOperand": {
+						"tokenType": "identifier",
+						"value": "a",
+						"line": 3,
+						"start": 11,
+						"end": 11
+					},
+					"operator": {
+						"tokenType": "add",
+						"value": "+",
+						"line": 3,
+						"start": 13,
+						"end": 13
+					},
+					"rOperand": {
+						"tokenType": "identifier",
+						"value": "b",
+						"line": 3,
+						"start": 15,
+						"end": 15
+					}
+				}
+			}
+		},
+		{
+			"object": {
+				"tokenType": "identifier",
+				"value": "Proc",
+				"line": 4,
+				"start": 1,
+				"end": 4
+			},
+			"accessor": {
+				"tokenType": "accessor",
+				"value": ".",
+				"line": 4,
+				"start": 5,
+				"end": 5
+			},
+			"property": {
+				"object": {
+					"tokenType": "identifier",
+					"value": "terminal",
+					"line": 4,
+					"start": 6,
+					"end": 13
+				},
+				"accessor": {
+					"tokenType": "accessor",
+					"value": ".",
+					"line": 4,
+					"start": 14,
+					"end": 14
+				},
+				"property": {
+					"functionIdentifier": {
+						"tokenType": "identifier",
+						"value": "output",
+						"line": 4,
+						"start": 15,
+						"end": 20
+					},
+					"arguments": [
+						{
+							"backPointer": {
+								"tokenType": "back pointer",
+								"value": "../",
+								"line": 4,
+								"start": 22,
+								"end": 24
+							},
+							"backPointed": {
+								"backPointer": {
+									"tokenType": "back pointer",
+									"value": "../",
+									"line": 4,
+									"start": 25,
+									"end": 27
+								},
+								"backPointed": {
+									"tokenType": "identifier",
+									"value": "c",
+									"line": 4,
+									"start": 28,
+									"end": 28
+								}
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"tokenType": "null",
+			"value": "null"
+		}
+	]
+}

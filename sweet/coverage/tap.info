@@ -1,0 +1,151 @@
+TAP version 13
+# Subtest: basic add operation
+ok 1 - basic add operation
+  ---
+  duration_ms: 1.854292
+  ...
+# Subtest: basic subtract operation
+ok 2 - basic subtract operation
+  ---
+  duration_ms: 0.15075
+  ...
+# Subtest: basic multiply operation
+ok 3 - basic multiply operation
+  ---
+  duration_ms: 0.12925
+  ...
+# Subtest: basic divide operation
+ok 4 - basic divide operation
+  ---
+  duration_ms: 0.12075
+  ...
+# Subtest: parenthesis arithmetic
+ok 5 - parenthesis arithmetic
+  ---
+  duration_ms: 0.643834
+  ...
+# Subtest: parenthesis arithmetic 2
+ok 6 - parenthesis arithmetic 2
+  ---
+  duration_ms: 0.160792
+  ...
+# Subtest: parenthesis within parenthesis
+ok 7 - parenthesis within parenthesis
+  ---
+  duration_ms: 0.152708
+  ...
+# Subtest: /Users/dengarcia/Desktop/practices/kaleidescope/test/ast.testData.js
+ok 2 - /Users/dengarcia/Desktop/practices/kaleidescope/test/ast.testData.js
+  ---
+  duration_ms: 38.865125
+  ...
+# Subtest: simple add arithmetic
+ok 9 - simple add arithmetic
+  ---
+  duration_ms: 2.398167
+  ...
+# Subtest: simple subtract arithmetic
+ok 10 - simple subtract arithmetic
+  ---
+  duration_ms: 0.128167
+  ...
+# Subtest: simple multiply arithmetic
+ok 11 - simple multiply arithmetic
+  ---
+  duration_ms: 0.566042
+  ...
+# Subtest: simple divide arithmetic
+ok 12 - simple divide arithmetic
+  ---
+  duration_ms: 0.111375
+  ...
+# Subtest: unaligned operations
+ok 13 - unaligned operations
+  ---
+  duration_ms: 0.104666
+  ...
+# Subtest: parenthesized arithmetic
+ok 14 - parenthesized arithmetic
+  ---
+  duration_ms: 0.090917
+  ...
+# Subtest: parenthesized arithmetic 2
+ok 15 - parenthesized arithmetic 2
+  ---
+  duration_ms: 0.089542
+  ...
+# Subtest: parenthesis within parenthesis
+ok 16 - parenthesis within parenthesis
+  ---
+  duration_ms: 0.096209
+  ...
+# Subtest: simple character
+ok 17 - simple character
+  ---
+  duration_ms: 0.127375
+  ...
+# Subtest: special character
+ok 18 - special character
+  ---
+  duration_ms: 0.0945
+  ...
+# Subtest: simple string
+ok 19 - simple string
+  ---
+  duration_ms: 0.150792
+  ...
+# Subtest: string with special characters
+ok 20 - string with special characters
+  ---
+  duration_ms: 0.095417
+  ...
+# Subtest: test keyword
+ok 21 - test keyword
+  ---
+  duration_ms: 0.082208
+  ...
+# Subtest: test identifier
+ok 22 - test identifier
+  ---
+  duration_ms: 1.620208
+  ...
+# Subtest: test assignment
+ok 23 - test assignment
+  ---
+  duration_ms: 0.129875
+  ...
+# Subtest: end line
+ok 24 - end line
+  ---
+  duration_ms: 0.10825
+  ...
+# Subtest: /Users/dengarcia/Desktop/practices/kaleidescope/test/lexer.testData.js
+ok 4 - /Users/dengarcia/Desktop/practices/kaleidescope/test/lexer.testData.js
+  ---
+  duration_ms: 37.639208
+  ...
+1..25
+# tests 25
+# suites 0
+# pass 25
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 82.371167
+# start of coverage report
+# ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# file     | line % | branch % | funcs % | uncovered lines
+# ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# …/AST.js |  69.48 |    85.25 |   77.27 | 21-22 25-26 52-59 67-75 131-135 145-154 158-172 179-181 202 228-230 260-262 268-281 284-285 292-308
+# …odes.js |  39.73 |    50.00 |   44.44 | 23-30 32-41 44-53 56-63 66-73
+# Lexer.js |  51.01 |    38.66 |   88.89 | 34-36 38-42 56-58 60-62 64-66 69-71 75-77 79-81 83-89 95-97 100-102 104-106 108-110 112-114 120-122 129-131 135-137 139-141 143-145 147-152 154-159 169-171 17…
+# …test.js | 100.00 |   100.00 |  100.00 | 
+# …Data.js | 100.00 |   100.00 |  100.00 | 
+# …test.js | 100.00 |   100.00 |  100.00 | 
+# …Data.js | 100.00 |   100.00 |  100.00 | 
+# …ypes.js | 100.00 |   100.00 |  100.00 | 
+# ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# all fil… |  73.14 |    47.56 |   82.81 |
+# ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# end of coverage report
